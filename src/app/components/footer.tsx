@@ -3,7 +3,8 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import { FaFacebook, FaInstagram, FaGithub, FaLinkedin} from 'react-icons/fa'
-import { SiVercel } from 'react-icons/si' 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+// import { SiVercel } from 'react-icons/si' 
 const Footer = () => {
   const [email, setEmail] = useState("");
 
